@@ -1075,7 +1075,8 @@ footer p {
 }
 
 /*Media Query*/
-@media (max-width: 799px) {
+/*iPad mini*/
+@media (max-width: 999px){
 
     .section-p1 {
         padding: 40px;
@@ -1160,6 +1161,22 @@ footer p {
    }
 }
 
+/*iPad mini landscape*/
+@media (min-width: 1024px) and (max-width: 1025px) {
+    #hero > h2 {
+        font-size: 37px;
+    }
+
+    #feature {
+        padding: 0 20px;
+    }
+
+    #feature .fe-box {
+        width: 143px;
+    }
+}
+
+/*iPhone SE*/
 @media (max-width: 477px) {
     #header {
         padding: 10px 20px;
@@ -1225,9 +1242,97 @@ footer p {
         font-size: 15px;
     }
 
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe-box {
+        width: 135px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
 
 
+}
 
+
+/*iphone SE Landscape*/
+@media (min-width: 667px) and (max-width: 670px) {
+    #hero {
+       padding-top: 30px;
+       padding-left: 28px;
+    }
+
+    #hero > h4 {
+        font-size: 15px;
+    }
+
+    #hero > h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #hero > h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #hero > p {
+        width: 35%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #banner > h4 {
+        padding-top: 10px;
+        line-height: 10px;
+    }
+
+    #banner > h2,
+    #banner > h2 > span {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0;
+    }
+
+    #banner > button {
+        margin: 10px 0px;
+    }
+
+    #newsletter {
+        height: 40vh;
+    }
+
+    #newsletter > .newstext {
+        margin-right: 10px;
+    }
+
+    .newstext > h4 {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .newstext > p {
+        font-size: 12px;
+        margin-bottom: 40px;
+        margin-top: 5px;
+    }
+
+    #newsletter > .form {
+        display: flex;
+        width: 100%;
+    }
+
+@media (min-width: 740px) and (max-width: 741px) {
+    #hero {
+        padding: 0px 0px;
+    }
+    }
 }
 
 /* Footer Media Query */
